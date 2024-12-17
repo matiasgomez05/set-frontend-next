@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 //Componentes
 import Header from "@/components/Header";
+import StairTransition from "@/components/StairTransition";
+import PageTransition from "@/components/PageTransition";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,10 +30,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased container`}
       >
         <Header />
-        {children}
+        <StairTransition></StairTransition>
+        <PageTransition>{ children }</PageTransition>
       </body>
     </html>
   );
