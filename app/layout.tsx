@@ -30,11 +30,13 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased container`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
         <StairTransition></StairTransition>
-        <PageTransition>{ children }</PageTransition>
+        <PageTransition>
+          <main className="mx-6">{ children }</main>
+        </PageTransition>
       </body>
     </html>
   );

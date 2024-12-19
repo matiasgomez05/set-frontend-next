@@ -8,4 +8,4 @@ Este es un proyecto frontend con motivo de aprendizaje y orientado a porfolio pe
 
 - Clonar el Repositorio.
 - Instalar las dependencias de node con el comando `npm install` desde la terminal
-- Ejecutar la aplicacion con `npm run build` desde la terminal
+- Ejecutar la aplicacion con `npm run dev` desde la terminal para obtener la preview
