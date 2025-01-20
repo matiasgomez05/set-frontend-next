@@ -1,9 +1,7 @@
-import React from 'react'
-
-const page = () => {
+export default function About() {
   return (
-    <div>Acerca de...</div>
-  )
+    <section className="bg-background h-full">
+      <div className="mx-6">Acerca de...</div>
+    </section>
+  );
 }
-
-export default page

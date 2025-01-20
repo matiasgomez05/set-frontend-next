@@ -24,7 +24,11 @@ export default {
   	extend: {
   		colors: {
   			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			foreground: 'var(--foreground)',
+			text: 'var(--text)',
+			primary: 'var(--primary)',
+			secondary: 'var(--secondary)',
+			accent: 'var(--accent)'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

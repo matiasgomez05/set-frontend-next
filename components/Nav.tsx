@@ -27,10 +27,10 @@ const Nav = () => {
                 return <Link 
                 href={ link.path } 
                 key={ index } 
-                className={ "text-blue-600 font-medium hover:text-black" }
+                className={ "text-primary font-medium hover:text-accent" }
             >
               <motion.button 
-                className={ link.path == pathname? "text-black border-black border-b-2" : "" }
+                className={ link.path == pathname? "text-accent border-black border-b-2" : "" }
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}> 
                   {link.name} 

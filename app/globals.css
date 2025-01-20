@@ -8,5 +8,21 @@
   }
   :root {
     --radius: 0.5rem;
+    --text: #080d0a;
+    --background: #f2f8f4;
+    --primary: #2563eb;
+    --secondary: #9dd2af;
+    --accent: #79c793;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --radius: 0.5rem;
+      --text: #f2f2f4;
+      --background: #070f09;
+      --primary: #55aa77;
+      --secondary: #2d623f;
+      --accent: #388551;
+    }
   }
 }
